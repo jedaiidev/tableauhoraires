@@ -1,0 +1,260 @@
+.grid-container {
+    max-width: 800px;
+    height: auto;
+    /* border: 1px solid black; */
+    display: grid;
+    
+}
+
+
+.item1 {
+    background-color: #18347a;
+    width: "auto";
+    /* border: 1px solid yellow; */
+}
+
+.dates {
+    color: white;
+    font-weight: bold;
+    padding-left: 11px;
+}
+
+.item2 {
+    background-color: #18347a;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(18, minmax(10px, 120px));
+}
+
+.item2 div p{
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    
+}
+
+.item2 div {
+    border-right: 1px solid white;
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: center;
+}
+
+.item3 {
+    display: grid;
+    grid-template-columns: repeat(18, minmax(10px, 120px));
+    
+}
+
+.card {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: #a3c2e5;
+}
+
+.card0 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-color: #dce9f6;
+}
+
+.card1 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    background-color: #a3c2e5;
+}
+
+.card1 p {
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    display: grid;
+        place-items: center
+}
+
+.card2 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    background-color: #dce9f6;
+}
+
+.card2 p {
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    display : grid; 
+    place-items: center
+}
+
+.card3 {
+    grid-column-start: 5;
+    grid-column-end: 6;
+    background-color: #a3c2e5;
+    
+}
+.card3 p {
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    display: grid;
+        place-items: center
+}
+
+.card4 {
+    grid-column-start: 6;
+    grid-column-end: 7;
+    background-color: #dce9f6;
+}
+
+.card4 p {
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    display: grid;
+        place-items: center
+}
+
+.card5 {
+    grid-column-start: 7;
+    grid-column-end: 8;
+    background-color: #a3c2e5;
+}
+
+.card5 p {
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    display: grid;
+        place-items: center
+}
+
+.card6 {
+    grid-column-start: 8;
+    grid-column-end: 9;
+    background-color: #dce9f6;
+}
+
+.card6 p {
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    display: grid;
+        place-items: center
+}
+
+.card7 {
+    grid-column-start: 9;
+    grid-column-end: 10;
+    background-color: #a3c2e5;
+}
+
+.card7 p {
+    font-size: 14px;
+    font-weight: 900;
+    color: black;
+    display: grid;
+        place-items: center
+}
+.card8 {
+    grid-column-start: 10;
+    grid-column-end: 11;
+    background-color: #dce9f6;
+}
+
+.card8 p {
+    font-size: 14px;
+    font-weight: 900;
+    color: black;
+    display: grid;
+        place-items: center
+}
+
+.card9 {
+    grid-column-start: 11;
+    grid-column-end: 12;
+    background-color: #a3c2e5;
+}
+
+.card9 p {
+    font-size: 14px;
+    font-weight: 900;
+    color: black;
+    display: grid;
+        place-items: center
+}
+.card10 {
+    grid-column-start: 12;
+    grid-column-end: 13;
+    background-color: #dce9f6;
+}
+
+.card10 p {
+    font-size: 14px;
+    font-weight: 900;
+    color: black;
+    display: grid;
+        place-items: center
+}
+.card11 {
+    grid-column-start: 13;
+    grid-column-end: 14;
+    background-color: #a3c2e5;
+}
+
+.card11 p {
+    font-size: 14px;
+    font-weight: 900;
+    color: black;
+    display: grid;
+        place-items: center
+}
+.card12 {
+    grid-column-start: 14;
+    grid-column-end: 15;
+    background-color: #dce9f6;
+}
+
+.card12 p {
+    font-size: 14px;
+    font-weight: 900;
+    color: black;
+    display: grid;
+        place-items: center
+}
+.card13 {
+    grid-column-start: 15;
+    grid-column-end: 16;
+    background-color: #a3c2e5;
+}
+
+.card13 p {
+    font-size: 14px;
+    font-weight: 900;
+    color: black;
+    display: grid;
+        place-items: center
+}
+.card14 {
+    grid-column-start: 16;
+    grid-column-end: 17;
+    background-color: #dce9f6;
+}
+
+.card14 p {
+    font-size: 14px;
+    font-weight: 900;
+    color: black;
+    display: grid;
+        place-items: center
+}
+
+.card15 {
+    grid-column-start: 17;
+    grid-column-end: 18;
+    background-color: #a3c2e5;
+}
+.card16 {
+    grid-column-start: 18;
+    grid-column-end: 19;
+    background-color: #dce9f6;
+}
